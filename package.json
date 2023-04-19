@@ -1,0 +1,31 @@
+{
+  "name": "gigninja_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "start:prod": "SET NODE_ENV=production& nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/CFTLabs/gigninja_backend.git"
+  },
+  "author": "Rajhans",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/CFTLabs/gigninja_backend/issues"
+  },
+  "homepage": "https://bitbucket.org/CFTLabs/gigninja_backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "googleapis": "^108.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.1",
+    "validator": "^13.9.0"
+  }
+}
